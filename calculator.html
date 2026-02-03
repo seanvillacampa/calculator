@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link defer href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <script src="script.js" defer></script>
+<h1>Simple 2 number calculator</h1>
+
+    <div class="container-xl">
+        
+        <div class="calculator">
+<form>
+<div class="output">
+
+<input type="text" id="output" readonly>
+
+</div>
+<div>
+
+    <div class="nums">
+<input type="button" class="btn btn-dark" value="1" onclick="appendNumber('1')">
+<input type="button" class="btn btn-dark" value="2" onclick="appendNumber('2')">
+<input type="button" class="btn btn-dark" value="3" onclick="appendNumber('3')">
+
+</div>
+
+<div>
+<div class="nums">
+<input type="button" class="btn btn-dark" value="4" onclick="appendNumber('4')">
+<input type="button" class="btn btn-dark" value="5" onclick="appendNumber('5')">
+<input type="button" class="btn btn-dark" value="6" onclick="appendNumber('6')">
+</div>
+</div>
+
+<div>
+<div class="nums">
+<input type="button" class="btn btn-dark" value="7" onclick="appendNumber('7')">
+<input type="button" class="btn btn-dark" value="8" onclick="appendNumber('8')">
+<input type="button" class="btn btn-dark" value="9" onclick="appendNumber('9')">
+</div>
+</div>
+
+<div>
+
+<input type="button" class="btn btn-warning" value="+" onclick="setOperator('+')">
+<input type="button" class="btn btn-warning" value="-" onclick="setOperator('-')">
+<input type="button" class="btn btn-warning" value="x" onclick="setOperator('x')">
+<input type="button" class="btn btn-warning" value="/" onclick="setOperator('/')">
+</div>
+
+<div>
+<div class="nums">
+<input type="button" class="btn btn-dark" value="0" onclick="appendNumber('0')">
+<input type="button" class="btn btn-success" value="=" onclick="calculate()">
+<input type="button" class="btn btn-success" value="C" onclick="clearAll();">
+</div>
+</div>
+
+
+
+</form>
+        </div>
+    </div>
+    
+</body>
+</html>

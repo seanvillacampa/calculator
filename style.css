@@ -1,0 +1,71 @@
+body{
+
+background: linear-gradient(to bottom, violet, pink, white);
+
+
+
+}
+
+h1{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container-xl{
+
+width: 750px;
+height:750px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.calculator{
+
+
+background: grey ;
+padding: 20px;
+border-radius: 10px;
+
+}
+
+.calculator form input{
+
+border:0;
+outline: 0;
+width: 60px;
+height: 60px;
+margin: 5px;
+border-radius: 10px;
+font-size: 30px;
+
+}
+
+form .output{
+
+display: flex;
+justify-content: flex-end;
+margin: 20px 0;
+
+
+}
+
+form .output input{
+
+text-align: right;
+flex: 1;
+font-size: 30px;
+
+}
+
+.nums{
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+
